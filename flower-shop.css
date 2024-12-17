@@ -74,3 +74,79 @@ header {
     width: 100%;
     padding-top: 10px;
 }
+
+
+/* ***---------------------Our Featured Flowers-----------------------*** */
+
+#featured {
+    margin: 120px 0;
+}
+
+.section-heading {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+
+.section-content .flower .flower-img {
+    background-color: #efabba;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+    Selection colors Hex #A72162 15%
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+    Selection colors Hex #477D11 15% Export PNG Export Rectangle 3 Preview
+}
+
+.section-content .flower p {
+    margin-top: 25px;
+    .color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
