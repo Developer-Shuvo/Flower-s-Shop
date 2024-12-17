@@ -138,6 +138,7 @@ header {
 }
 
 .section-content .flower p {
+  cursor: pointer;
   margin-top: 25px;
   color: #272727;
   text-align: center;
@@ -167,7 +168,7 @@ header {
   height: 320px;
   flex-shrink: 0;
   gap: 100px;
-  background: rgba(39, 39, 39, 0.05);
+  background: rgba(5, 151, 160, 0.15);
 }
 
 .main-section {
