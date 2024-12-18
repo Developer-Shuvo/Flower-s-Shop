@@ -87,14 +87,32 @@ header {
 }
 
 .section-heading {
-  max-width: 500px;
-  margin: 20px auto;
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center !important;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.section-heading,
+h2 {
+  padding-bottom: 20px;
 }
 
 .section-heading h2 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.section-heading3 h2 {
   color: #272727;
   text-align: center;
   font-family: Lato;
@@ -222,4 +240,69 @@ header {
 
 #hot-deal .image-section {
   max-width: 318px;
+}
+
+/* ****--------------image card section-------------------**** */
+
+#image-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+
+.photo-card {
+  width: 342px;
+  height: 395px;
+}
+
+/* ***------------------Get The Latest Deals-------------------*** */
+
+#latest-deal {
+  margin: 128px 0;
+}
+
+.latest-deal-main {
+  /* border: 1px solid rgb(0, 60, 255); */
+  background-image: url("./images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.from-controller {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+}
+
+.latest-deal-main form {
+  width: 700px;
+  display: flex;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+.latest-deal-main form input {
+  width: 600px;
+  flex-grow: 1;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.borders {
+  border: 1px solid red;
+}
+
+.section-heading3 {
+  text-align: center;
+  padding-bottom: 40px;
 }
