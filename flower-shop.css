@@ -183,3 +183,42 @@ header {
   flex-direction: column;
   gap: 24px;
 }
+
+/* ***---------------------Hot Deal/ Offers section------------------------*** */
+
+#hot-deal {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.hot-deal-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+
+#hot-deal .hot-deal-main .text-section {
+  width: 75%;
+  max-width: 445px;
+}
+
+#hot-deal .text-section h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#hot-deal .text-section h1 .off {
+  color: #e55473;
+}
+
+#hot-deal .text-section * {
+  margin-bottom: 24px;
+}
+
+#hot-deal .image-section {
+  max-width: 318px;
+}
