@@ -5,304 +5,353 @@
 /* ***-------------Css Shared style----------------*** */
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
 }
 
 .container {
-  max-width: 1440px;
-  margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 p {
-  color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 button {
-  border-radius: 8px;
-  background: #e55473;
-  color: white;
-  font-size: 20px;
-  padding: 15px 25px;
-  border: none;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 5ps;
+    border-radius: 8px;
+    background: #e55473;
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 5ps;
 }
 
 button:hover {
-  background-color: blue;
+    background-color: blue;
 }
 
 button a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 header {
-  background: rgba(229, 84, 115, 0.1);
+    background: rgba(229, 84, 115, 0.1);
 }
 
 .container {
-  width: 75%;
-  max-width: 1440px;
-  margin: 0 auto;
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .banner .banner-txt h1 {
-  color: #272727;
-  font-family: Lato;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .banner .banner-txt * {
-  margin-bottom: 35px;
-  max-width: 530px;
+    margin-bottom: 35px;
+    max-width: 530px;
 }
 
 .banner .banner-img img {
-  width: 100%;
-  padding-top: 10px;
+    width: 100%;
+    padding-top: 10px;
 }
+
 
 /* ***---------------------Our Featured Flowers-----------------------*** */
 
 #featured {
-  margin: 120px 0;
+    margin: 120px 0;
 }
 
 .section-heading {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center !important;
-  width: 500px;
-  margin: 0 auto;
-  margin-top: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center !important;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 130px;
 }
 
 .section-heading,
 h2 {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .section-heading h2 {
-  color: #272727;
-  text-align: center;
-  font-family: Lato;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .section-heading3 h2 {
-  color: #272727;
-  text-align: center;
-  font-family: Lato;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .section-content {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  align-items: end;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
 }
 
 .section-content .flower .flower-img {
-  background-color: #efabba;
-  border-radius: 300px 300px 0px 0px;
-  padding: 30px 25px 0;
-  height: 500px;
-  display: flex;
-  align-items: end;
-  margin-top: 30px;
+    background-color: #efabba;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    margin-top: 30px;
 }
 
 .section-content .flower .flower-img img {
-  width: 100%;
+    width: 100%;
 }
 
 .section-content .flower .pink {
-  background: rgba(167, 33, 98, 0.15) Selection colors Hex #a72162 15%;
+    background: rgba(167, 33, 98, 0.15) Selection colors Hex #a72162 15%;
 }
 
 .section-content .flower .blue {
-  background: rgba(5, 151, 160, 0.15);
+    background: rgba(5, 151, 160, 0.15);
 }
 
 .section-content .flower .green {
-  background: rgba(71, 125, 17, 0.15) Selection colors Hex #477d11 15% Export
-    PNG Export Rectangle 3 Preview;
+    background: rgba(71, 125, 17, 0.15) Selection colors Hex #477d11 15% Export PNG Export Rectangle 3 Preview;
 }
 
 .section-content .flower p {
-  cursor: pointer;
-  margin-top: 25px;
-  color: #272727;
-  text-align: center;
-  font-family: Lato;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 35px;
-  /* 145.833% */
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
-  text-underline-position: from-font;
+    cursor: pointer;
+    margin-top: 25px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
 }
+
 
 /* ***-------------------services section------------------*** */
 
 .services {
-  display: flex;
-  align-items: center;
-  border-radius: 8px;
-  justify-content: center;
-  max-width: 1440px;
-  margin: 0 auto;
-  height: 320px;
-  flex-shrink: 0;
-  gap: 100px;
-  background: rgba(5, 151, 160, 0.15);
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 320px;
+    flex-shrink: 0;
+    gap: 100px;
+    background: rgba(5, 151, 160, 0.15);
 }
 
 .main-section {
-  padding-top: 128px;
-  padding-bottom: 128px;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
 }
+
 
 /* ***---------------------Hot Deal/ Offers section------------------------*** */
 
 #hot-deal {
-  background: rgba(229, 84, 115, 0.1);
+    background: rgba(229, 84, 115, 0.1);
 }
 
 .hot-deal-main {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
 }
 
 #hot-deal .hot-deal-main .text-section {
-  width: 75%;
-  max-width: 445px;
+    width: 75%;
+    max-width: 445px;
 }
 
 #hot-deal .text-section h1 {
-  color: #272727;
-  font-family: Lato;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+    color: #272727;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 #hot-deal .text-section h1 .off {
-  color: #e55473;
+    color: #e55473;
 }
 
 #hot-deal .text-section * {
-  margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
 #hot-deal .image-section {
-  max-width: 318px;
+    max-width: 318px;
 }
+
 
 /* ****--------------image card section-------------------**** */
 
 #image-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 0;
 }
 
 .photo-card {
-  width: 342px;
-  height: 395px;
+    width: 342px;
+    height: 395px;
 }
+
 
 /* ***------------------Get The Latest Deals-------------------*** */
 
 #latest-deal {
-  margin: 128px 0;
+    margin: 128px 0;
 }
 
 .latest-deal-main {
-  /* border: 1px solid rgb(0, 60, 255); */
-  background-image: url("./images/Rectangle\ 9.png");
-  background-repeat: no-repeat;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    /* border: 1px solid rgb(0, 60, 255); */
+    background-image: url("./images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .from-controller {
-  color: rgba(39, 39, 39, 0.6);
-  text-align: left;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-left: 15px;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 15px;
 }
 
 .latest-deal-main form {
-  width: 700px;
-  display: flex;
-  gap: 15px;
-  border-radius: 10px;
+    width: 700px;
+    display: flex;
+    gap: 15px;
+    border-radius: 10px;
 }
 
 .latest-deal-main form input {
-  width: 600px;
-  flex-grow: 1;
-  border-style: none;
-  border-radius: 10px;
+    width: 600px;
+    flex-grow: 1;
+    border-style: none;
+    border-radius: 10px;
 }
 
 .borders {
-  border: 1px solid red;
+    border: 1px solid red;
 }
 
 .section-heading3 {
-  text-align: center;
-  padding-bottom: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+/* ***-----------Footer section added---------*** */
+
+#footer-container {
+    background: #111010;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 128px 0;
+}
+
+.heading {
+    align-items: center;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.header-p {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main-div .link {
+    color: rgb(212, 191, 0);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
